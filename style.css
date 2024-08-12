@@ -1,0 +1,265 @@
+/* Assuming the yellow color from the image 'ab' is #FFD700 (Gold) */
+/* Ensure the footer stays at the bottom of the page */
+
+#awareness-section img {
+    width: 200px; /* Increase the size of the 'stop' image */
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#awareness-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    background: none; /* Remove the background color */
+    position: relative; /* Allows absolute positioning of elements inside if needed */
+}
+
+#awareness-section img {
+    #awareness-section img {
+    width: 200px; /* Increase the size of the 'stop' image */
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+}
+
+.awareness-text {
+    max-width: 600px; /* Adjust width as needed */
+    /* Ensure the text has no additional background */
+}
+
+.awareness-text h2, .awareness-text p {
+    color: #ffffff; /* Ensure text color contrasts with the background image */
+}
+
+#introduction, #about, #laws-regulations, #support-resources {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent background for readability */
+    border-radius: 10px;
+    margin: 20px;
+    text-align: left;
+    font-size: 1.2rem; /* Increase the font size */
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Slightly increased size */
+    font-family: 'Poppins', sans-serif; /* Apply the new font */
+    color: #FFD700; /* Ensure the color matches the yellow */
+    animation: fadeInDown 1s ease-out; /* Apply the animation */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Slightly increased size */
+    font-family: 'Poppins', sans-serif; /* Apply the new font */
+    color: #ffffff; /* Ensure the color matches the yellow */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #584940;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+header {
+    background-color: #FFD700; /* Set the header background to match the yellow color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C2CAD0;
+    background-image: url('ab.jpg'); /* Set 'ab.jpg' as the background image */
+    background-size: cover; /* Ensure the background covers the entire screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+}
+
+#introduction, #about, #laws-regulations, #support-resources {
+    padding: 20px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent background for readability */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.call-to-action button, .downloads a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #AFD275;
+    color: #7E685A;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.downloads a {
+    background-color: #28a745;
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto; /* Ensures the image scales proportionally */
+    display: block;
+    margin: 0; /* Remove any default margin around the image */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 80px; /* Adjust size as needed */
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px; /* Space between logo and heading */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C2CAD0;
+}
+
+header {
+    background-color: #eec073;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#introduction {
+    padding: 20px;
+    text-align: center;
+}
+
+#about, #laws-regulations, #support-resources {
+    padding: 20px;
+    text-align: left;
+}
+
+.call-to-action button, .downloads a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #AFD275;
+    color: #7E685A;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.downloads a {
+    background-color: #28a745;
+}
+#awareness-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    margin: 20px;
+    text-align: left;
+}
+
+#awareness-section img {
+    width: 500px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.awareness-text {
+    max-width: 600px; /* Adjust width as needed */
+}
+
+.awareness-text h2 {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: #111110;
+    margin-bottom: 10px;
+}
+
+.awareness-text p {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+footer {
+    background-color: #584940;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
